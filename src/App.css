@@ -1,0 +1,194 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+.admin-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.admin-panel h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.App-logo {
+  display: flex; /* Omogućava korišćenje Flexbox-a */
+  justify-content: space-between; /* Raspoređuje elemente na suprotne strane */
+  align-items: center; /* Vertikalno centriranje elemenata */
+  position: fixed;
+  top: 40px;
+  left: 35px;
+  height: 70px; /* Prilagođeno za visinu logo-a */
+  width: calc(100% - 70px); /* Oduzima levi margin plus malo prostora za disanje */
+  z-index: 1000;
+}
+
+body {
+  background-color: #000; /* Crna pozadina */
+  color: #ffffff; /* Bela slova */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.admin-panel-input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.admin-panel-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Osnovna boja za start dugme */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-bottom: 20px;
+  height: 64px; /* Povećana visina */
+  width: 80%; /* Povećana širina */
+}
+.admin-panel-button.stop { /* Dodatna klasa za stop dugme */
+  background-color: red;
+  &:hover {
+    background-color: darkred;
+  }
+}
+
+.admin-panel button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.admin-panel button:hover {
+  background-color: #0056b3;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0069d9;
+}
+
+
+
+.connected-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.connected-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connected-account {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connected-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.connected-button:hover {
+  background-color: #0069d9;
+}
+
+.connected-contract-address {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.candidates-table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align:center;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Dodaje blago zasenčenje oko tabele */
+  border-radius: 8px; /* Zaobljene ivice */
+  overflow: hidden;
+  opacity: 80%;
+}
+
+.candidates-table th, .candidates-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;  
+  color: #333;
+}
+
+.candidates-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.candidates-table tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.candidates-table tr:hover {
+  background-color: #e2e2e2;
+}
+
+input[type=number] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
