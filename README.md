@@ -8,4 +8,4 @@
  2.  Nakon toga u constant fajlu potrebno je uneti adresu ugovora i abi za svaki od tri ugovora koja se koriste
  3. Unutar App.js je potrebno uneti project id i rpc (WalletConnect i Alchemy npr.) 
  4.  Kako bi se instalirale potrebne zavisnosti nakon instaliranog node.js-a pokrenuti npm install, ako ima problema, obrtiti se chatgpt-ju :)
- Ovo su neki od krupnijih koraka, pretpostavljam da neko ima malo iskustva.
+Ovo su neki od krupnijih koraka, pretpostavljam da neko ima malo iskustva.
