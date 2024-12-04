@@ -28,7 +28,7 @@ Deploy the smart contracts to a network of their choice (the smart contracts are
 https://github.com/FilipJoksimovic29/SolidVote-smart-contracts-pre-production-version.git.
 Then, in the constants file, input the contract address and ABI for each of the three contracts being used.
 In App.js, input the project ID and RPC (e.g., WalletConnect and Alchemy).
-To install the required dependencies, after installing Node.js, run npm install. If you encounter any issues, feel free to ask ChatGPT. 😊
+To install the required dependencies, after installing Node.js, run npm install. 
 These are some of the larger steps, assuming the person has some experience.
 
 # Technical details:
