@@ -17,3 +17,28 @@ Komponneta AdminPanel zaduzena je za prikazivanje podesavanja glasacke sesije
 Komponenta Connected je zaduzena za samo glasanje
 Komponenta VotePage je zaduzena za preusmeravanje glasaca koji je seknirao QR kod na sesiju glasanja kojoj on pripada
 App.js sadrzi neke od kljucnih funkcija kao sto su povezivanje walleta ili slanje Eth-a glasacima 
+
+# ENG
+
+# This is the frontend part of the SolidVote application. You can try the app at https://solidvotedapp.com/SolidVote, and additional information about the application and the problem it solves can be found at https://solidvotedapp.com.
+Currently, it is on the Base Sepolia testnet and is in the testing phase. Any suggestions are welcome at office@solidvotedapp.com.
+
+# If someone wants to test the code locally, they first need to:
+Deploy the smart contracts to a network of their choice (the smart contracts are written in Solidity, so Eth, Base, Polygon, etc.). For more information, visit
+https://github.com/FilipJoksimovic29/SolidVote-smart-contracts-pre-production-version.git.
+Then, in the constants file, input the contract address and ABI for each of the three contracts being used.
+In App.js, input the project ID and RPC (e.g., WalletConnect and Alchemy).
+To install the required dependencies, after installing Node.js, run npm install. If you encounter any issues, feel free to ask ChatGPT. 😊
+These are some of the larger steps, assuming the person has some experience.
+
+# Technical details:
+The application is written in React and consists of five main components and the App.js file.
+Login is the component that opens first after launching the application. After connecting with the user's wallet, it moves to the LandingPage component.
+The AdminPanel component is responsible for displaying voting session settings.
+The Connected component is responsible for the voting process itself.
+The VotePage component redirects voters who scanned the QR code to the voting session they belong to.
+App.js contains some of the key functions, such as connecting to a wallet or sending ETH to voters.
+
+
+
+
