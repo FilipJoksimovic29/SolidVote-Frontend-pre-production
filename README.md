@@ -1,7 +1,6 @@
 # Ovo je frontend deo SolidVote aplikacije, aplicaciju mozete probati na  https://solidvotedapp.com/SolidVote , dok se dodatne informacije o samoj aplikaciji i problemu koji resava nalaze na https://solidvotedapp.com
  Trenutno je na Base sepolia testnet-u, i u procesu je testiranja , sve sugestije su dobrodosle na office@solidvotedapp.com
 
-# Ovaj kod nije kod za produkciju i kao takvog odricem se bilo kakve odogovornosti.
 # Ako neko želi da lokalno testira kod, prvo je potrebno da:
  1. Okaci pametne ugovore na mrezu po izboru(pametni ugovori su pisani u solidity-ju, dakle Eth, Base, Polygon..ect) vise o ovome 
   https://github.com/FilipJoksimovic29/SolidVote-smart-contracts-pre-production-version.git. 
